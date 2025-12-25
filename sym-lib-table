@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "NOVOSENSE")(type "KiCad")(uri "${KIPRJMOD}/Lib/NOVOSENSE.kicad_sym")(options "")(descr ""))
+  (lib (name "power_my")(type "KiCad")(uri "${KIPRJMOD}/Lib/power_my.kicad_sym")(options "")(descr ""))
+  (lib (name "MORNSUN")(type "KiCad")(uri "${KIPRJMOD}/Lib/MORNSUN.kicad_sym")(options "")(descr ""))
+)
