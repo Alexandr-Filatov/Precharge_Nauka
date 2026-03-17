@@ -1,0 +1,89 @@
+(footprint "SMD_8mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6099d005-f700-46e6-a95f-62bb3ff21898")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SMD_8mm"
+		(at 0 4.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "beeb71d9-5807-4b55-9492-aed1e244a905")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51f75cb5-6a28-41c4-abb2-40498fa76597")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d18e5c57-e3a5-4de9-87e6-7d6b2a06acea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 6.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6b9b124e-845b-4f7d-ae28-e83940d41801")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 8 8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a97a637f-11f3-4362-ba71-ec93481a5a21")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3D/Bush_Phase.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 90 -0)
+		)
+	)
+)
