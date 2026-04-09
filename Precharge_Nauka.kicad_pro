@@ -58,7 +58,108 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|160353256|173555000|09829ec9-9d81-4610-9b38-81957d1dea31|a037375a-b15a-436e-bedf-1fd34a3c7e37",
+          ""
+        ],
+        [
+          "courtyards_overlap|166336077|172555000|a037375a-b15a-436e-bedf-1fd34a3c7e37|ba13ae7d-6f08-42aa-b4b9-ce6b2fc3aa58",
+          ""
+        ],
+        [
+          "courtyards_overlap|178345000|175315000|257a0ae6-eeb7-48e3-b343-67aa601148b0|40fdc25d-b598-40ae-b49c-9cb0ecd91cac",
+          ""
+        ],
+        [
+          "courtyards_overlap|183525000|165105000|257a0ae6-eeb7-48e3-b343-67aa601148b0|eaa3f3cf-d2f9-4e5c-8623-d4c11c287b0e",
+          ""
+        ],
+        [
+          "courtyards_overlap|183525000|167605000|257a0ae6-eeb7-48e3-b343-67aa601148b0|8748f891-9dd5-432a-87b1-971f386a8bcb",
+          ""
+        ],
+        [
+          "courtyards_overlap|183586077|172555000|21d6e4ee-1e0e-4f9b-b115-8a23a25eac39|257a0ae6-eeb7-48e3-b343-67aa601148b0",
+          ""
+        ],
+        [
+          "courtyards_overlap|184347773|153865000|08352fed-1ed1-46ee-9446-6d4d93baf083|257a0ae6-eeb7-48e3-b343-67aa601148b0",
+          ""
+        ],
+        [
+          "courtyards_overlap|186555000|153865000|08352fed-1ed1-46ee-9446-6d4d93baf083|3ae8b872-3572-4018-be30-71e747d5f2e2",
+          ""
+        ],
+        [
+          "courtyards_overlap|187550618|165105000|3ae8b872-3572-4018-be30-71e747d5f2e2|eaa3f3cf-d2f9-4e5c-8623-d4c11c287b0e",
+          ""
+        ],
+        [
+          "courtyards_overlap|187772063|167605000|3ae8b872-3572-4018-be30-71e747d5f2e2|8748f891-9dd5-432a-87b1-971f386a8bcb",
+          ""
+        ],
+        [
+          "courtyards_overlap|194776744|164625000|3ae8b872-3572-4018-be30-71e747d5f2e2|9e9b8d54-9a01-40c7-bf02-66452691e4b6",
+          ""
+        ],
+        [
+          "courtyards_overlap|195595000|175315000|3ae8b872-3572-4018-be30-71e747d5f2e2|fb84ff54-4906-4375-b59f-d2a9e4ccc873",
+          ""
+        ],
+        [
+          "courtyards_overlap|197625000|159225000|1376ea9b-a3ed-444d-9972-3f33eb9c1e91|3ae8b872-3572-4018-be30-71e747d5f2e2",
+          ""
+        ],
+        [
+          "courtyards_overlap|198125000|153865000|3ae8b872-3572-4018-be30-71e747d5f2e2|fabead3f-bfbf-4762-bb01-425be9b75c0d",
+          ""
+        ],
+        [
+          "courtyards_overlap|200836077|172555000|145765aa-f198-49fd-9ef2-953d19005285|3ae8b872-3572-4018-be30-71e747d5f2e2",
+          ""
+        ],
+        [
+          "courtyards_overlap|201125000|159225000|3ae8b872-3572-4018-be30-71e747d5f2e2|a6c189c7-1598-4263-b253-d1cd4ed23046",
+          ""
+        ],
+        [
+          "courtyards_overlap|201375000|153865000|13493aca-bb5f-4dbe-89b8-991c7f5fabba|3ae8b872-3572-4018-be30-71e747d5f2e2",
+          ""
+        ],
+        [
+          "courtyards_overlap|201475000|164625000|3ae8b872-3572-4018-be30-71e747d5f2e2|deb911c6-f603-4c26-b9ab-57cddba3234f",
+          ""
+        ],
+        [
+          "courtyards_overlap|204758100|164625000|8ca05e14-e32c-4d2e-9c10-0f560cb2c79d|deb911c6-f603-4c26-b9ab-57cddba3234f",
+          ""
+        ],
+        [
+          "courtyards_overlap|207900590|159225000|8ca05e14-e32c-4d2e-9c10-0f560cb2c79d|a05a9e15-798b-43ff-ad15-0c171d875401",
+          ""
+        ],
+        [
+          "courtyards_overlap|209125000|153865000|504e7144-01aa-4d44-b2c9-60bfecb30127|8ca05e14-e32c-4d2e-9c10-0f560cb2c79d",
+          ""
+        ],
+        [
+          "courtyards_overlap|209975000|153875000|8ca05e14-e32c-4d2e-9c10-0f560cb2c79d|e52a337e-3b1f-45bb-b34b-db7e671f8e0a",
+          ""
+        ],
+        [
+          "courtyards_overlap|210361451|164625000|8ca05e14-e32c-4d2e-9c10-0f560cb2c79d|ebbf3922-b08f-4c72-a0d2-d966680b95f6",
+          ""
+        ],
+        [
+          "courtyards_overlap|212103256|173555000|5b5b36b3-cfba-40a0-abd6-01eff2919ff8|8ca05e14-e32c-4d2e-9c10-0f560cb2c79d",
+          ""
+        ],
+        [
+          "courtyards_overlap|218047872|172505000|3b5b0e6f-f860-4453-9d3b-b28ac2ba9b47|8ca05e14-e32c-4d2e-9c10-0f560cb2c79d",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -88,7 +189,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -637,7 +738,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "Docs/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

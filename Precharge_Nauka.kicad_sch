@@ -190,7 +190,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Amplifier_Operational:LMV321"
+		(symbol "Amplifier_Operational:OPA333xxDBV"
 			(pin_names
 				(offset 0.127)
 			)
@@ -198,43 +198,43 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
+				(at -1.27 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "OPA333xxDBV"
+				(at -1.27 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa333.pdf"
 				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
-				)
-			)
-			(property "Value" "LMV321"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOT-23-5/SC-70-5"
+			(property "Description" "Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOT-23-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -252,7 +252,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23* *SC*70*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -261,7 +261,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LMV321_0_1"
+			(symbol "OPA333xxDBV_0_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -311,7 +311,7 @@
 					)
 				)
 			)
-			(symbol "LMV321_1_1"
+			(symbol "OPA333xxDBV_1_1"
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -322,7 +322,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -340,7 +340,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -358,7 +358,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11142,12 +11142,11 @@
 			)
 		)
 		(property "Value" "NSI6801"
-			(at 143.51 81.28 0)
+			(at 141.224 98.044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "NOVOSENSE:SOW6"
@@ -16525,13 +16524,12 @@
 			)
 		)
 		(property "Value" "UWF1205S-3WR3"
-			(at 81.28 111.76 0)
+			(at 79.756 95.758 0)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "MORNSUN:UWF_S-3WR3"
@@ -17594,83 +17592,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:LMV321")
-		(at 275.59 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "661a79bb-6dc8-4671-b4ed-0c4770694e6e")
-		(property "Reference" "U2"
-			(at 278.13 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LMV321IDBVR"
-			(at 280.67 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 275.59 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
-			(at 275.59 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 275.59 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b32d09be-085e-4ee0-8747-0e3203620075")
-		)
-		(pin "5"
-			(uuid "95227aca-dc21-4909-9924-1c1af4b50dac")
-		)
-		(pin "1"
-			(uuid "c5dfb2dd-6242-4ca2-87d7-2cc117fa2ea0")
-		)
-		(pin "3"
-			(uuid "14e42b77-2ba1-451f-9419-d353ec101333")
-		)
-		(pin "4"
-			(uuid "34613f53-7dcd-475f-855f-164c8d7ba9ac")
-		)
-		(instances
-			(project "Precharge_Nauka"
-				(path "/4c7ed5b8-d5c3-4df8-8b69-45d446422c1d"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 101.6 250.19 270)
 		(unit 1)
@@ -17998,6 +17919,83 @@
 			(project "Precharge_Nauka"
 				(path "/4c7ed5b8-d5c3-4df8-8b69-45d446422c1d"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA333xxDBV")
+		(at 275.59 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a7f446d-2a1f-4f93-bc44-6cbcb8392c18")
+		(property "Reference" "U6"
+			(at 287.02 67.2045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA333xxDBV"
+			(at 281.94 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 273.05 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa333.pdf"
+			(at 275.59 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOT-23-5"
+			(at 275.59 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "fd928ea3-76d8-4a9c-b0a3-8cac8e913148")
+		)
+		(pin "2"
+			(uuid "3db92f42-88b3-43ea-aed0-39f427aaf094")
+		)
+		(pin "3"
+			(uuid "2f70cb56-a02b-48f8-902f-80318e4da8cf")
+		)
+		(pin "1"
+			(uuid "ed0457f3-875e-448e-bb14-5287cef1e0c2")
+		)
+		(pin "4"
+			(uuid "b5adacdf-374d-4505-85c0-1a6891cd7bd4")
+		)
+		(instances
+			(project ""
+				(path "/4c7ed5b8-d5c3-4df8-8b69-45d446422c1d"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -20562,6 +20560,83 @@
 			(project "Precharge_Nauka"
 				(path "/4c7ed5b8-d5c3-4df8-8b69-45d446422c1d"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA333xxDBV")
+		(at 275.59 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f11ba30-ba31-4d4c-af84-0c60109aa4b9")
+		(property "Reference" "U7"
+			(at 287.02 111.6545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA333xxDBV"
+			(at 282.956 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 273.05 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa333.pdf"
+			(at 275.59 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOT-23-5"
+			(at 275.59 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "2036c13d-0113-42de-88e0-d3950ff64d3d")
+		)
+		(pin "2"
+			(uuid "7b4c0c70-4ae2-488b-8b7c-fad3a12f04e9")
+		)
+		(pin "3"
+			(uuid "b9600f89-ff05-4e9d-8e7e-e8cc7a567c43")
+		)
+		(pin "1"
+			(uuid "6e589e62-54e0-4cec-a1ee-02d90771d598")
+		)
+		(pin "4"
+			(uuid "d759b826-9c89-4cfe-9cca-d1bb86092de6")
+		)
+		(instances
+			(project "Precharge_Nauka"
+				(path "/4c7ed5b8-d5c3-4df8-8b69-45d446422c1d"
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -27573,83 +27648,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:LMV321")
-		(at 275.59 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d3b4954f-0f1c-49c5-96c7-3385667153e3")
-		(property "Reference" "U4"
-			(at 278.13 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LMV321IDBVR"
-			(at 280.67 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 275.59 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
-			(at 275.59 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 275.59 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6578a7ae-01fe-424e-add2-e71071850d40")
-		)
-		(pin "5"
-			(uuid "36b4dbd5-e28a-456f-a1c5-3b0bede31d82")
-		)
-		(pin "1"
-			(uuid "91ad0d33-e2f8-4fe7-89b4-d35a08c7acae")
-		)
-		(pin "3"
-			(uuid "edafbc44-8536-419c-afe5-031c917a058f")
-		)
-		(pin "4"
-			(uuid "1814b3e2-1ec8-4f0b-ba8d-429bcf5bb211")
-		)
-		(instances
-			(project "Precharge_Nauka"
-				(path "/4c7ed5b8-d5c3-4df8-8b69-45d446422c1d"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 152.4 273.05 270)
 		(unit 1)
@@ -30351,13 +30349,12 @@
 			)
 		)
 		(property "Value" "UWF1215S-3WR3"
-			(at 81.28 132.08 0)
+			(at 86.868 137.668 0)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "MORNSUN:UWF_S-3WR3"
